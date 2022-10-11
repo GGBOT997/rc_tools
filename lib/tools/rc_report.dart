@@ -6,7 +6,7 @@
 
 import 'dart:async';
 import 'package:logger/logger.dart';
-import 'package:sentry_flutter/sentry_flutter.dart';
+// import 'package:sentry_flutter/sentry_flutter.dart';
 
 class RcReport {
   RcReport._();
@@ -73,7 +73,7 @@ class RcReport {
         error : ${e.toString()};
       ''';
 
-      Sentry.captureException(throwable, stackTrace: t);
+      // Sentry.captureException(throwable, stackTrace: t);
     } catch (_) {}
   }
 }
