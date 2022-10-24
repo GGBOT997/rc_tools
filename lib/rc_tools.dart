@@ -11,7 +11,7 @@ export './tools/rc_tag.dart';
 export './tools/rc_bus.dart';
 export './tools/rc_calc.dart';
 export './tools/rc_tools.dart';
-export './tools/rc_report.dart';
+// export './tools/rc_report.dart';
 export './tools/rc_getx_id.dart';
 export './tools/rc_isolate.dart';
 export './tools/rc_encrypt.dart';
